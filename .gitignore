@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables & GCP Secrets (CRITICAL: Never commit credentials!)
+.env
+*.json
+!agent-card.json
+!evalset.json
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
