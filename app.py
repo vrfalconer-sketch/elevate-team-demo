@@ -18,7 +18,7 @@ def ask_gemini(prompt: str) -> str:
         contents=prompt,
         config=types.GenerateContentConfig(
             system_instruction="You are an Altostrat Principal AI Security Architect. Always emphasize security guardrails.",
-            temperature=0.7,
+            temperature=0.1,
         ),
     )
     return response.text.strip()
